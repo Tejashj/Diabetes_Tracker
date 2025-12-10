@@ -1,0 +1,31 @@
+name: flutter_application_1
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.10.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_local_notifications: ^17.2.4
+  supabase_flutter: ^2.3.3
+  timezone: ^0.9.0
+  intl: ^0.18.0
+  flutter_launcher_icons: ^0.13.1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/app_icon.png"
+  assets:
+  - assets/icon/app_icon.png
